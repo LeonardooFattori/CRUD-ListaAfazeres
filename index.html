@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,12 +9,13 @@
 <body>
   <div class="container">
     <h1>Lista de Afazeres por Usuário</h1>
-    <form class="userForm">
+    <form class="formUsuario" id="formularioAdicionarUsuario">
       <h2>Adicionar Novo Usuário</h2>
       <input id="nomeUsuario" type="text" placeholder="Nome do usuário">
       <input id="urlImagem" type="text" placeholder="URL da imagem do usuário">
-      <button id="botaoUsuario">Adicionar Usuário</button>
+      <button type="submit" id="botaoAdicionarUsuario">Adicionar Usuário</button>
     </form>
+    <div class="containerUsuarios" id="containerUsuarios"></div>
   </div>
   <script src="main.js"></script>
 </body>
