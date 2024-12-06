@@ -1,0 +1,37 @@
+body{
+  background-color: rgb(207, 207, 207);
+}
+
+.container{
+  background-color: white;
+  margin: 10px;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+  text-align: center;
+}
+
+.userForm{
+  background-color: rgb(207, 207, 207);
+  text-align: start;
+  margin: 10px;
+  padding: 10px;
+}
+
+.userForm input{
+  width: 48%;
+  min-height: 25px;
+  border: 0;
+  border-radius: 4px;
+  padding: 3px;
+}
+
+.userForm button{
+  min-width: 20px;
+  background-color: rgb(3, 168, 3);
+  border: 0;
+  border-radius: 4px;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
